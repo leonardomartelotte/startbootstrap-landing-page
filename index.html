@@ -1,183 +1,377 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Landing Page - Start Bootstrap Theme</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
-        <!-- Simple line icons-->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="dist/css/styles.css" rel="stylesheet" />
-    </head>
-    <body>
-        <!-- Navigation-->
-        <nav class="navbar navbar-light bg-light static-top">
-            <div class="container">
-                <a class="navbar-brand" href="#!">Start Bootstrap</a>
-                <a class="btn btn-primary" href="#!">Sign In</a>
+<!doctype html>
+<html class="no-js" lang="pt-br">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>martelotte.com</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/jquery.fancybox.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/animate.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<script data-ad-client="ca-pub-5285243037962618" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+
+<body>
+<!-- header section -->
+<section class="banner" role="banner">
+  <header id="header"> 
+    <!-- navigation section  -->
+    <div class="header-content clearfix">
+      <nav class="navigation" role="navigation">
+        <ul class="primary-nav">
+          <li><a href="index.html"><i class="fas fa-2x fa-home" style="color: orange"></i></a></li>
+          <li><a href="about.html"><i class="far fa-2x fa-id-card"></i></a></li>
+          <li><a href="contact.html"><i class="far fa-2x fa-comments"></i></a></li>
+        </ul>
+      </nav>
+      <a href="#" class="nav-toggle">Menu<span></span></a> </div>
+    <!-- navigation section  --> 
+  </header>
+  <!-- banner text -->
+  <div class="container">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="banner-text text-center">
+        <h1>Portfólio</h1>
+        <p>Reuni neste site alguns dos meus trabalhos como desenvolvedor.</p>
+        <!-- banner text --> 
+      </div>
+    </div>
+  </div>
+</section>
+<!-- header section --> 
+<!-- description text section -->
+<section id="descripton" class="section descripton">
+  <div class="container">
+    <div class="col-md-10 col-md-offset-1 text-center">
+      <p>Há algo melhor do que estar sempre aprendendo coisas novas? É sempre motivador estar fora da zona de conforto de um ambiente já conhecido e enfrentar novos desafios, por isso o meu portfólio vai desde websites comuns até apps para iOS, passando por outras tecnologias.</p>
+      <p>Nos projetos abaixo trabalhei com: Swift, CloudKit, CoreData, Node.js, MongoDB, Vue.js, Firebase, Firestore, PHP, MySQL, HTML e CSS, dentre outras ferramentas entre IDEs, linguagens e frameworks.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- Modal Infanzia-->
+<div class="modal fade" id="Infanzia" tabindex="-1" role="dialog" aria-labelledby="Infanzia" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="Infanzia">Infanzia Brechó Infantil</h5>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p class="m-5 p-5">Loja online de brechó infantil totalmente deselvolvida por mim, do zero, sem fazer uso de nenhuma plataforma de e-commerce pré pronta.</p>
+        <p class="m-5 p-5">Este é até então o meu maior projeto, tanto em complexidade quanto no tamanho da aplicação, eis que além da parte visível aos consumidores ele também tem toda a área administrativa, com inúmeras funcões disponíveis para administradores do sistema e fornecedores de produtos.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Voltar</button>
+        <a href="https://www.infanziabrecho.com.br/" target="_blank" type="button" class="btn btn-primary">Visitar</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Alta Vendagem-->
+<div class="modal fade" id="Vendagem" tabindex="-1" role="dialog" aria-labelledby="Vendagem" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="Vendagem">Alta Vendagem</h5>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p class="m-5 p-5">Plataforma ERP para pequenas e médias empresas.</p>
+        <p class="m-5 p-5">ERP com funcionalidades de administração de pessoal, estoque, vendas e ficha técnica. Este projeto ampliou os meus horizontes no Node.js e no MongoDB, tendo não só sido um prazer enorme trabalhar nele, como foi essencial para o meu amadurecimento e conhecimento em JavaScript.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Voltar</button>
+        <a href="https://altavendagem.herokuapp.com/" target="_blank" type="button" class="btn btn-primary">Visitar</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Feverish-->
+<div class="modal fade" id="Feverish" tabindex="-1" role="dialog" aria-labelledby="Feverish" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="Feverish">Feverish</h5>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p class="m-5 p-5">Aplicativo para iOS desenvolvido nativamente no Xcode em Swift e disponível em inglês e em portugês.</p>
+        <p class="m-5 p-5">Feverish é uma ferramenta completa para acompanhar e arquivar facilmente as temperaturas, medicamentos e anotações de seus familiares. (descrição completa na AppStore)</p>
+        <p class="m-5 p-5">Neste projeto tive a oportunidade de aprender muito sobre a linguagem Swift, sobre como fazer uso da IDE Xcode e de como fazer o deploy de aplicações iOS na AppStore. 
+          Nele eu aprendi também a lidar com o recurso "iniciar sessão com a Apple" e com os bancos de dados Core Data e Cloud Kit, ferramentas interessantíssimas e bastante poderosas.</p>
+          <p class="m-5 p-5">O aplicativo produz gráficos de curva febril e exporta dados de temperaturas e medicamentos das pessoas cadastradas em PDF e em XLS.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Voltar</button>
+        <a href="https://apps.apple.com/br/app/feverish/id1516333030" target="_blank" type="button" class="btn btn-primary">Visitar</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Phase Pro 10-->
+<div class="modal fade" id="Phase" tabindex="-1" role="dialog" aria-labelledby="Phase" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="Phase">Phase Pro 10</h5>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p class="m-5 p-5">Aplicativo para iOS desenvolvido nativamente no Xcode em Swift e em inglês.</p>
+        <p class="m-5 p-5">Phase Pro 10 é um aplicativo completo para gerenciar o jogo de cartas Phase 10, bastante famoso nos Estados Unidos e em outros países.</p>
+        <p class="m-5 p-5">Neste projeto tive a oportunidade de aprender muito sobre a linguagem Swift, sobre como fazer uso da IDE Xcode e de como fazer o deploy de aplicações iOS na AppStore. Nele fiz o uso do bancos de dados Core Data pela primeira vez e adorei a forma simples como o Xcode trata o desenvolvimento dessa tecnologia.</p>
+          <p class="m-5 p-5">Apesar da simplicidade e do mercado de nicho no qual este app está inserido, curiosamente ele é um sucesso em vendas!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Voltar</button>
+        <a href="https://apps.apple.com/br/app/phase-pro-10/id1508900676" target="_blank" type="button" class="btn btn-primary">Visitar</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Sonia Gabaglia-->
+<div class="modal fade" id="Gabaglia" tabindex="-1" role="dialog" aria-labelledby="Gabaglia" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="Gabaglia">Website Sonia Gabaglia</h5>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p class="m-5 p-5">Website feito para a minha querida cliente Sonia Gabaglia.</p>
+        <p class="m-5 p-5">Não tenho como foco a confecção de websites, dado o meu amor por programação, entretanto, é sempre possível aprender coisas novas, não importa aonde a gente trabalhe.</p>
+        <p class="m-5 p-5">Profissionalmente serviu para conhecer algumas bibliotecas do MDB Bootstrap e para lidar com animações e paginação em CSS.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Voltar</button>
+        <a href="https://www.soniagabaglia.com.br/" target="_blank" type="button" class="btn btn-primary">Visitar</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Vem Calcular-->
+<div class="modal fade" id="Calcular" tabindex="-1" role="dialog" aria-labelledby="Calcular" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="Calcular">Vem Calcular</h5>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p class="m-5 p-5">Single Page Application de calculadoras online e Blog.</p>
+        <p class="m-5 p-5">Projeto desenvolvido por mim em colaboração com o Professor <a href="https://br.linkedin.com/in/diogo-robaina-784954162" target="_blank">Diogo Robaina</a>.</p>
+        <p class="m-5 p-5">Trata-se de sistema com calculadoras online para matemática financeira e estatística, além de contar com blog e administração do mesmo.</p>
+        <p class="m-5 p-5">Este projeto serviu para me introduzir ao Vue.js e ao Firebase (banco de dados não relacional da Google), bem como através dele conheci a plataforma Heroku e suas funcionalidades. Este projeto está em constante expansão.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Voltar</button>
+        <a href="https://www.vemcalcular.com.br/" target="_blank" type="button" class="btn btn-primary">Visitar</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Anima-->
+<div class="modal fade" id="Anima" tabindex="-1" role="dialog" aria-labelledby="Anima" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="Anima">Anima!?</h5>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p class="m-5 p-5">Webapp para caronas online.</p>
+        <p class="m-5 p-5">Meu primeiro aplicativo web. Foi desenvolvido ao final do segundo período da faculdade como um projeto despretensioso, mas acabou escalando e se tornando realidade.</p>
+        <p class="m-5 p-5">Foi criado em conjunto com outros 4 colegas da faculdade, e por nós apresentado na Semana da Tecnologia da Unilasalle/RJ, causando surpresa para os professores o fato de alunos de 2º período fazerem um projeto digno de projeto final.</p>
+        <p class="m-5 p-5">Nele aprendemos muito sobre php e MySQL, além do uso constante da ferramenta GIT. Neste momento ele está online e funcionando, mas sem certificado SSL por não estar mais sendo utilizado pela faculdade.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Voltar</button>
+        <a href="http://www.anima.pe.hu/" target="_blank" type="button" class="btn btn-primary">Visitar</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Meu Buraco-->
+<div class="modal fade" id="Buraco" tabindex="-1" role="dialog" aria-labelledby="Buraco" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="Buraco">Meu Buraco</h5>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p class="m-5 p-5">Aplicativo Android e iOS para anotar placar de partidas de Buraco.</p>
+        <p class="m-5 p-5">Aplicativo desenvolvido de forma híbrida em React Native e disponível tanto na AppStore (iOS) quando na Play Store (Android)</p>
+        <p class="m-5 p-5">Projeto simples e divertido, utilizado nos tempos vagos como forma de exercício de programação e para ampliar o conhecimento no desenvolvimento de aplicações hibrídas.</p>
+        <p class="m-5 p-5">Bastante interessante conhecer uma forma diferente de se distribuir um app que não a forma tradicional (usando as ferramentas oficiais de cada loja) para fazê-lo via Expo, ferramenta muito boa para este fim.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Voltar</button>
+        <a href="http://www.meuburaco.online" target="_blank" type="button" class="btn btn-primary">Visitar</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Meu Buraco-->
+<div class="modal fade" id="Proximo" tabindex="-1" role="dialog" aria-labelledby="Proximo" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="Proximo">Próximo projeto...</h5>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p class="m-5 p-5">Quem ama programar está sempre a um passo de um novo projeto e comigo não é diferente.</p>
+        <p class="m-5 p-5">Novidades estão para chegar e em breve farão parte deste acervo. :)</p>
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Voltar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- description text section --> 
+<!-- portfolio section -->
+<section id="works" class="works section no-padding">
+  <div class="container-fluid">
+    <div class="row no-gutter">
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="#" class="work-box" data-toggle="modal" data-target="#Infanzia"> <img src="images/work-1.png" alt="INFANZIA BRECHÓ">
+        <div class="overlay">
+          <div class="overlay-caption">
+            <h5>INFANZIA BRECHÓ</h5>
+            <p>Loja online de produtos infantis usados</p>
+          </div>
+        </div>
+        <!-- overlay --> 
+        </a> </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="#" class="work-box" data-toggle="modal" data-target="#Vendagem"> <img src="images/work-2.png" alt="ALTA VENDAGEM">
+        <div class="overlay">
+          <div class="overlay-caption">
+            <h5>ALTA VENDAGEM</h5>
+            <p>ERP para pequenas e médias empresas</p>
+          </div>
+        </div>
+        <!-- overlay --> 
+        </a> </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="#" class="work-box" data-toggle="modal" data-target="#Feverish" target="_blank" class="work-box"> <img src="images/work-3.png" alt="FEVERISH">
+        <div class="overlay">
+          <div class="overlay-caption">
+            <h5>FEVERISH</h5>
+            <p>Aplicativo para iOS para monitorar e acompanhar temperaturas de febre e uso de medicamentos</p>
+          </div>
+        </div>
+        <!-- overlay --> 
+        </a> </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="#" class="work-box" data-toggle="modal" data-target="#Phase" target="_blank" class="work-box"> <img src="images/work-4.png" alt="PHASE PRO 10">
+        <div class="overlay">
+          <div class="overlay-caption">
+            <h5>PHASE PRO 10</h5>
+            <p>Aplicativo para iOS para gerenciar fases, jogadores e pontuações do famoso jogo de cartas Phase 10&#174;</p>
+          </div>
+        </div>
+        <!-- overlay --> 
+        </a> </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="#" class="work-box" data-toggle="modal" data-target="#Gabaglia" target="_blank" class="work-box"> <img src="images/work-5.png" alt="SONIA GABAGLIA">
+        <div class="overlay">
+          <div class="overlay-caption">
+            <h5>SONIA GABAGLIA</h5>
+            <p>Website de apresentação profissional</p>
+          </div>
+        </div>
+        <!-- overlay --> 
+        </a> </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="https://www.martelotte.com/vemcalcular/" class="work-box" data-toggle="modal" data-target="#Calcular" target="_blank" class="work-box"> <img src="images/work-6.png" alt="VEM CALCULAR">
+        <div class="overlay">
+          <div class="overlay-caption">
+            <h5>VEM CALCULAR</h5>
+            <p>SPA de calculadoras online (financeiras e de estatística)</p>
+          </div>
+        </div>
+        <!-- overlay --> 
+        </a> </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="#" class="work-box" data-toggle="modal" data-target="#Anima" class="work-box"> <img src="images/work-7.png" alt="ANIMA!?">
+        <div class="overlay">
+          <div class="overlay-caption">
+            <h5>ANIMA!?</h5>
+            <p>WebApp de caronas e interação social (sem SSL)</p>
+          </div>
+        </div>
+        <!-- overlay --> 
+        </a> </div>
+      <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="#" class="work-box" data-toggle="modal" data-target="#Buraco" class="work-box"> <img src="images/work-9.png" alt="">
+        <div class="overlay">
+          <div class="overlay-caption">
+            <h5>MEU BURACO</h5>
+            <p>Aplicativo Android e iOS para anotar placar de partidas de Buraco.</p>
+          </div>
+        </div>
+        <!-- overlay --> 
+        </a> </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="#" class="work-box" data-toggle="modal" data-target="#Proximo" class="work-box"> <img src="images/work-8.png" alt="">
+          <div class="overlay">
+            <div class="overlay-caption">
+              <h5>LOADING...</h5>
+              <p>Logo logo aparecerá uma novidade aqui!</p>
             </div>
-        </nav>
-        <!-- Masthead-->
-        <header class="masthead text-white text-center">
-            <div class="overlay"></div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-9 mx-auto"><h1 class="mb-5">Leonardo Martelotte</h1><h4>8º Período</h4><br><img class="img-fluid rounded-circle mb-3" src="https://observatoriodocinema.uol.com.br/wp-content/uploads/2019/07/neytiri_in_avatar_2-wide-do-we-really-need-avatar-2.jpeg" alt="..." /></div>
-                    <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-                        <form>
-                            <div class="form-row">
-                                <div class="col-12 col-md-9 mb-2 mb-md-0"><input class="form-control form-control-lg" type="email" placeholder="Enter your email..." /></div>
-                                <div class="col-12 col-md-3"><button class="btn btn-block btn-lg btn-primary" type="submit">Sign up!</button></div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <!-- Icons Grid-->
-        <section class="features-icons bg-light text-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                            <div class="features-icons-icon d-flex"><i class="icon-screen-desktop m-auto text-primary"></i></div>
-                            <h3>Fully Responsive</h3>
-                            <p class="lead mb-0">This theme will look great on any device, no matter the size!</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                            <div class="features-icons-icon d-flex"><i class="icon-layers m-auto text-primary"></i></div>
-                            <h3>Bootstrap 4 Ready</h3>
-                            <p class="lead mb-0">Featuring the latest build of the new Bootstrap 4 framework!</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="features-icons-item mx-auto mb-0 mb-lg-3">
-                            <div class="features-icons-icon d-flex"><i class="icon-check m-auto text-primary"></i></div>
-                            <h3>Easy to Use</h3>
-                            <p class="lead mb-0">Ready to use with your own content, or customize the source files!</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Image Showcases-->
-        <section class="showcase">
-            <div class="container-fluid p-0">
-                <div class="row no-gutters">
-                    <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('dist/assets/img/bg-showcase-1.jpg')"></div>
-                    <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-                        <h2>Fully Responsive Design</h2>
-                        <p class="lead mb-0">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
-                    </div>
-                </div>
-                <div class="row no-gutters">
-                    <div class="col-lg-6 text-white showcase-img" style="background-image: url('dist/assets/img/bg-showcase-2.jpg')"></div>
-                    <div class="col-lg-6 my-auto showcase-text">
-                        <h2>Updated For Bootstrap 4</h2>
-                        <p class="lead mb-0">Newly improved, and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 4!</p>
-                    </div>
-                </div>
-                <div class="row no-gutters">
-                    <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('dist/assets/img/bg-showcase-3.jpg')"></div>
-                    <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-                        <h2>Easy to Use & Customize</h2>
-                        <p class="lead mb-0">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Testimonials-->
-        <section class="testimonials text-center bg-light">
-            <div class="container">
-                <h2 class="mb-5">What people are saying...</h2>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                            <img class="img-fluid rounded-circle mb-3" src="dist/assets/img/testimonials-1.jpg" alt="..." />
-                            <h5>Margaret E.</h5>
-                            <p class="font-weight-light mb-0">"This is fantastic! Thanks so much guys!"</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                            <img class="img-fluid rounded-circle mb-3" src="dist/assets/img/testimonials-2.jpg" alt="..." />
-                            <h5>Fred S.</h5>
-                            <p class="font-weight-light mb-0">"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                            <img class="img-fluid rounded-circle mb-3" src="dist/assets/img/testimonials-3.jpg" alt="..." />
-                            <h5>Sarah W.</h5>
-                            <p class="font-weight-light mb-0">"Thanks so much for making these free resources available to us!"</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Call to Action-->
-        <section class="call-to-action text-white text-center">
-            <div class="overlay"></div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-9 mx-auto"><h2 class="mb-4">Ready to get started? Sign up now!</h2></div>
-                    <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-                        <form>
-                            <div class="form-row">
-                                <div class="col-12 col-md-9 mb-2 mb-md-0"><input class="form-control form-control-lg" type="email" placeholder="Enter your email..." /></div>
-                                <div class="col-12 col-md-3"><button class="btn btn-block btn-lg btn-primary" type="submit">Sign up!</button></div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Footer-->
-        <footer class="footer bg-light">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
-                        <ul class="list-inline mb-2">
-                            <li class="list-inline-item"><a href="#!">About</a></li>
-                            <li class="list-inline-item">⋅</li>
-                            <li class="list-inline-item"><a href="#!">Contact</a></li>
-                            <li class="list-inline-item">⋅</li>
-                            <li class="list-inline-item"><a href="#!">Terms of Use</a></li>
-                            <li class="list-inline-item">⋅</li>
-                            <li class="list-inline-item"><a href="#!">Privacy Policy</a></li>
-                        </ul>
-                        <p class="text-muted small mb-4 mb-lg-0">© Your Website 2021. All Rights Reserved.</p>
-                    </div>
-                    <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
-                        <ul class="list-inline mb-0">
-                            <li class="list-inline-item mr-3">
-                                <a href="#!"><i class="fab fa-facebook fa-2x fa-fw"></i></a>
-                            </li>
-                            <li class="list-inline-item mr-3">
-                                <a href="#!"><i class="fab fa-twitter-square fa-2x fa-fw"></i></a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#!"><i class="fab fa-instagram fa-2x fa-fw"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="dist/js/scripts.js"></script>
-    </body>
+          </div>
+          <!-- overlay --> 
+          </a> </div>
+    </div>
+  </div>
+</section>
+<!-- portfolio section --> 
+<!-- contact section -->
+<section id="hireme" class="section hireme">
+  <div class="container">
+    <div class="col-md-8 col-md-offset-2 text-center">
+      <h3>Deseja entrar em contato?</h3>
+      <p>Um novo projeto pode estar a um ou dois cliques de distância.</p>
+      <a href="contact.html" class="btn btn-large">Eu quero!</a> </div>
+  </div>
+</section>
+<!-- contact section --> 
+<!-- footer -->
+<footer class="section footer">
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="col-md-12">
+        <p>
+        <ul class="footer-share">
+          <li><a href="https://br.linkedin.com/in/leonardo-martelotte" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+          <li><a href="https://github.com/leonardomartelotte" target="_blank"><i class="fa fa-github" target="_blank"></i></a></li>
+          <li><a href="mailto:leonardo@martelotte.com?subject=Contato%20pelo%20site" target="_blank"><i class="fa fa-envelope" target="_blank"></i></a></li>
+        </ul>
+        </p>
+        <p>martelotte.com</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- footer --> 
+<!-- JS FILES --> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://kit.fontawesome.com/2a4b12b5a5.js" crossorigin="anonymous"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/jquery.fancybox.pack.js"></script> 
+<script src="js/jquery.waypoints.min.js"></script> 
+<script src="js/retina.min.js"></script> 
+<script src="js/modernizr.js"></script> 
+<script src="js/main.js"></script>
+</body>
 </html>
